@@ -1,0 +1,5 @@
+安装git后
+
+初始化git
+git config --global user.name "Alex"
+git config --global user.email "mfanrui@126.com"
