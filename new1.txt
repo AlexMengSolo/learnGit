@@ -32,5 +32,9 @@ git reflog 用了记录你的每一次命令
 
 版本库Repository，
 git中的暂存区的概念，我们对文件进行修改后，通过add命令将文件放入暂存区，
+git为我们自动创建第一个分支master，以及指向master的一个指针叫做HEAD。
 
+管理修改 	
+每一次git commit到库中的代码都是add到缓存区的，如果没有先add到缓存区，那么无法
+提交至代码库
 
