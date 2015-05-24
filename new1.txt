@@ -29,3 +29,8 @@ git reset --hard HEAD^^ 回到上上个版本
 git reflog 用了记录你的每一次命令
 
 工作区和暂存区
+
+版本库Repository，
+git中的暂存区的概念，我们对文件进行修改后，通过add命令将文件放入暂存区，
+
+
