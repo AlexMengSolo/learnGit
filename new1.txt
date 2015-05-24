@@ -3,3 +3,17 @@
 初始化git
 git config --global user.name "Alex"
 git config --global user.email "mfanrui@126.com"
+
+
+git 初始化操作
+git init 命令将当前目录变成Git可以管理的仓库
+创建成功后，当前目录下会多一个.git的目录，这个目录是git来跟踪管理版本库的
+
+使用ls -ah命令可以查看目录下有那些文件
+
+git add 把文件添加到仓库
+git add readme.txt
+
+git commit 把文件提交到仓库
+git commit -m "备注"
+
